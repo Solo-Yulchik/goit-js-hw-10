@@ -16,3 +16,74 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+input{
+  border-radius: 4px;
+  border: solid 1px #ccc;
+  width: 272px;
+  font-size: 16px;
+  padding-left: 16px;
+}
+
+input:not(:disabled):hover{
+  border: 1px solid #4d4c4c;
+}
+
+input:focus{
+  outline: none;
+  border: 1px solid #6C8CFF;
+}
+
+button[data-start]{
+  width: 75px;
+  border-radius: 8px;
+  border: transparent;
+  color: #FFFFFF;
+  font-size: 16px;
+  background-color: #4E75FF;
+}
+
+button[data-start]:hover{
+  background-color: #6C8CFF;
+}
+
+button[data-start]:disabled{
+  background-color: #CFCFCF;
+  color: #989898;
+  
+}
+
+.timer-div{
+  padding-top: 20px;
+ justify-content: space-between;
+  display: flex;
+  text-align: start;
+  gap: 8px;
+  width: 355px;
+  height: 40px;
+  margin-bottom: 32px;
+  padding-left: 156px;
+}
+
+.timer{
+  display: flex;
+  width: 346px;
+  height: 72px;
+  justify-content: space-between;
+  padding-left: 156px
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+}
+
+.value{
+  font-size: 40px;
+  color: #2E2F42;
+}
+
+.label{
+  font-size: 16px;
+  color: #2E2F42;
+}
